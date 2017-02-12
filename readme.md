@@ -1,3 +1,9 @@
+* shellanoo group
+**mysql strict mode:
+** SET @@global.sql_mode= '';
+
+
+
 <p align="center">
 <img src="http://getdirectus.com/assets/imgs/directus.png" alt="Directus Logo"/>
 </p>
