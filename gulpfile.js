@@ -108,6 +108,7 @@ gulp.task('scripts:app', function() {
 
       // Libraries.
       "jquery":     "../assets/js/libs/jquery",
+      "jqueryui":     "../assets/js/libs/jqueryui",
       "underscore": "../assets/js/libs/underscore",
       "backbone":   "../assets/js/libs/backbone",
       "handlebars": "../assets/js/libs/handlebars",
@@ -134,6 +135,10 @@ gulp.task('scripts:app', function() {
       "backbone": {
         deps: ["underscore", "jquery"],
         exports: "Backbone"
+      },
+
+      'jqueryui': {
+        exports: 'jQuery'
       },
 
       "handlebars": {

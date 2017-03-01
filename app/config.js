@@ -8,6 +8,7 @@ require.config({
 
     // Libraries.
     "jquery":     "../assets/js/libs/jquery",
+    "jquery-ui":     "../assets/js/libs/jquery-ui",
     "underscore": "../assets/js/libs/underscore",
     "backbone":   "../assets/js/libs/backbone",
     "handlebars": "../assets/js/libs/handlebars",
@@ -34,6 +35,11 @@ require.config({
     "backbone": {
       deps: ["underscore", "jquery"],
       exports: "Backbone"
+    },
+
+    "jquery-ui": {
+      exports: "$",
+      deps: ['jquery']
     },
 
     "handlebars": {
